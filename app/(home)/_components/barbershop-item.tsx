@@ -30,7 +30,7 @@ const BarbershopItem = ({ barbershop }: BarbershopItemProps) => {
                                                 className="rounded-2xl"
                                         />
                                 </div>
-                                <div className="px-2 pb-0">
+                                <div className="px-2 pb-0 mb-3">
                                         <h2 className="font-bold mt-2 overflow-hidden text-ellipsis text-nowrap">{barbershop.name}</h2>
                                         <p className="text-sm text-gray-400 overflow-hidden text-ellipsis text-nowrap">{barbershop.address}</p>
                                         <Button className="w-full mt-3" variant="secondary">Reserva</Button>
